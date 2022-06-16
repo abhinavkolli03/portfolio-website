@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 export const FooterContainer = styled.footer`
     background-color: #101522;
@@ -54,4 +55,16 @@ export const FooterLinkTitle = styled.h1`
     margin-top: 30px;
     margin-bottom: 30px;
     display: center;
+`
+
+export const SocialLogo = styled(Link)`
+    color: #e83b36;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
 `

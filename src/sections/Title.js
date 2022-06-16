@@ -5,6 +5,7 @@ import IntroParts from '../components/IntroParts/IntroParts';
 import DisplayInfo from '../components/DisplayInfo';
 import { aboutData } from '../components/DisplayInfo/Data';
 import Footer from '../components/Footer'
+import About from './About'
 
 const Title = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +18,7 @@ const Title = () => {
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navigation toggle={toggle}/>
             <IntroParts id={'title'}/>
-            <DisplayInfo {...aboutData}/>
+            <About />
             <Footer />
         </div>
     )

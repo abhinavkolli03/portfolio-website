@@ -2,10 +2,42 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
     font-family: 'Dosis', sans-serif;
 }
 
 .social {
     position: relative;
     margin-top: 60px;
+}
+
+:root {
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+
+    --smooth-transition: all 400ms ease;
+
+    --color-primary: #e83b36;
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+section {
+    padding-top: 0rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }

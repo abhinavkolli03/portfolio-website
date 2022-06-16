@@ -6,7 +6,7 @@ const styles = {
   iconStyle: {
     marginLeft: 10,
     marginRight: 10,
-    marginTop: 20,
+    marginTop: -30,
     bgColor: 'white'
   },
 };
