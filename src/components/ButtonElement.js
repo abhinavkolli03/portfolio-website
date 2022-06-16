@@ -43,4 +43,8 @@ export const SimpleButton = styled.button`
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#fff' : '#01BF71')};
     }
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `

@@ -6,6 +6,9 @@ export const FooterContainer = styled.footer`
 `
 
 export const FooterWrap = styled.div`
+    max-height: 500px;
+
+    height: 100%;
     padding: 2px 2px;
     display: flex;
     flex-direction: column;
@@ -42,13 +45,13 @@ export const FooterLinkItems = styled.div`
     color: #fff;
 
     @media screen and (max-width: 420px) {
-        margin: 0;
-        padding: 10px;
+        margin: 0px;
+        padding: 0px;
         width: 100%;
     }
 `
 
-export const FooterLinkTitle = styled.h1`
+export const FooterLinkTitle = styled.h2`
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;

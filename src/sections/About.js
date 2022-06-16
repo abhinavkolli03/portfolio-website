@@ -15,15 +15,14 @@ const About = () => {
     }
 
 	return(
-        <section style={{backgroundColor: '#600538', maxHeight: '1500px'}} id="about">
-            <h1>About Me</h1>
+        <section style={{backgroundColor: '#C66F44', maxHeight: '1500px'}} id="about">
+            <h1 style={{color: '#fff'}}>About Me</h1>
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
                         <img src={Pic} alt="Abhinav Kolli Img" />
                     </div>
                 </div>
-
                 <div className='about__content'>
                     <div className='about__cards'>
                         <article className='about__card'>

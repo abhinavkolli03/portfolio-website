@@ -1,0 +1,38 @@
+.education__container {
+    display: grid;
+    grid-template-columns: 1.5fr .5fr;
+    gap: 2rem;
+}
+
+.education__school {
+    background: var(--color-primary);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--smooth-transition);
+}
+
+.education__school:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+}
+
+.education__details > div h3 {
+    text-align:justify;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+}
+
+.education__details {
+    margin-bottom: 10px;
+}
+
+.education__container > div h4 {
+    padding-right: 10px;
+    color: var(--color-primary);
+}
+
+.education__container {
+    gap: 1rem;
+}

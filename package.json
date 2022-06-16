@@ -17,6 +17,8 @@
     "react-scroll": "^1.8.7",
     "react-scrolling-nav": "^1.1.5",
     "react-social-icons": "^5.13.0",
+    "react-timeline-component": "^0.0.3",
+    "react-vertical-timeline-component": "^3.5.2",
     "sass": "^1.52.2",
     "styled-components": "^5.3.5",
     "typewriter-effect": "^2.18.2",

@@ -76,7 +76,7 @@ section > h2 {
 }
 
 .about__card:hover {
-    background: transparent;
+    background: #333;
     border-color: var(--color-primary);
     cursor: default;
 }
@@ -107,7 +107,8 @@ h1 {
     }
     .about__me {
         width: 50%;
-        margin: 2rem 2rem 2rem 4rem;
+        margin: 2rem auto 2rem auto;
+        justify-content: center;
     }
     .button__container {
         place-content: center;

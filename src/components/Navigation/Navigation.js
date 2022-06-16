@@ -52,16 +52,36 @@ const Navigation = ({toggle}) => {
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="education">Education</NavLinks>
+                                <NavLinks to="education" 
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-37}>Education</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="skills">Skills</NavLinks>
+                                <NavLinks to="skills" 
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-37}>Skills</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="experience">Experience</NavLinks>
+                                <NavLinks to="experience" 
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-37}>Experience</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="projects">Projects</NavLinks>
+                                <NavLinks to="projects" 
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-37}>Projects</NavLinks>
                             </NavItem>
                         </NavMenu>
                         <SimpleButton
