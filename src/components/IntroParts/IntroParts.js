@@ -25,7 +25,7 @@ const IntroParts = () => {
               options={{
                 loop: true,
                 autoStart: true,
-                strings: ['Software Engineer', 'Data Analyst'],
+                strings: ['Software Engineer', 'Data Analyst', 'Food Truck Lover', 'Robotics Enthusiast'],
               }}
             />
           </IntroP>

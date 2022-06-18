@@ -29,7 +29,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: purple;
+    background: #460a40;
     display: grid;
     align-items: center;
     top: 0;
@@ -44,7 +44,7 @@ export const CloseIcon = styled(FaTimes)`
 `
 
 export const SidebarWrapper = styled.div`
-    color: #fff;
+    color: #460a40;
 `
 
 export const SidebarLink = styled(LinkScroll)`

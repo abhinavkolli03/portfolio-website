@@ -1,8 +1,15 @@
-import React from 'react'
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, 
-    SideBtnWrap, SidebarRoute  } from './SidebarElements'
-
+import React, {useState} from 'react'
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap  } from './SidebarElements'
+import { SimpleButton2 } from '../ButtonElement'
+import pdf from '../../media/final_resume.pdf'
 const Sidebar = ({ isOpen, toggle }) => {
+
+    const [hover, setHover] = useState(false)
+
+    const onHover = () => {
+      setHover(!hover)
+    }
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
         <Icon onClick={toggle}>
@@ -17,7 +24,16 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to='/resume'>Resume</SidebarRoute>
+                <SimpleButton2
+                    onMouseEnter={onHover}
+                    onMouseLeave={onHover}
+                    primary='true'
+                    dark='true'
+                    color='white'>
+                    <a href={pdf} style={{color: 'black'}} target="_blank" rel="noreferrer">
+                        <b style={{display: 'inline-block'}}>Download CV</b>
+                    </a>
+                </SimpleButton2>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>

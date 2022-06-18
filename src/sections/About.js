@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Pic from '../media/me.jpeg'
-import { Button, SimpleButton } from '../components/ButtonElement.js'
+import { Button, SimpleButton2 } from '../components/ButtonElement.js'
 import { GiBullHorns, GiWeightLiftingUp, GiTechnoHeart } from 'react-icons/gi'
 import '../styles/About.css'
 import { IntroBtnWrapper } from '../components/IntroParts/IntroPartsElements'
@@ -15,16 +15,16 @@ const About = () => {
     }
 
 	return(
-        <section style={{backgroundColor: '#C66F44', maxHeight: '1500px'}} id="about">
-            <h1 style={{color: '#fff'}}>About Me</h1>
+        <section style={{background: 'linear-gradient(black, #600538)', backgroundColor: '#C66F44', maxHeight: '1500px'}} id="about">
+            <h1 data-aos="fade-zoom-in" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="400" style={{color: '#fff'}}>About Me</h1>
             <div className="container about__container">
-                <div className="about__me">
+                <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="400" className="about__me">
                     <div className="about__me-image">
                         <img src={Pic} alt="Abhinav Kolli Img" />
                     </div>
                 </div>
                 <div className='about__content'>
-                    <div className='about__cards'>
+                    <div data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="400" className='about__cards'>
                         <article className='about__card'>
                             <div className='about__words'>
                                 <h2 style={{textAlign: 'center'}}><GiTechnoHeart /><br></br> Career Goals</h2>
@@ -47,7 +47,8 @@ const About = () => {
                 </div>
             </div>
             <IntroBtnWrapper className="button__container">
-                <SimpleButton
+                <SimpleButton2
+                data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="400"
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 primary='true'
@@ -57,10 +58,12 @@ const About = () => {
                         <b style={{display: 'inline-block'}}>See Resume<IoPaperPlane style={{marginLeft: '8px',
                         fontSize: '20'}}/></b>
                     </a>
-                </SimpleButton>
+                </SimpleButton2>
                 <Button to='contact' 
+                data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="400"
                 onMouseEnter={onHover} 
                 onMouseLeave={onHover}
+                enable='true'
                 primary='true'
                 dark='true'
                 color='white'>
