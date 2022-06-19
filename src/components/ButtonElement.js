@@ -54,7 +54,7 @@ export const SimpleButton2 = styled.button`
     background: ${({primary}) => (primary ? '#e83b36' : 'white')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '4 px 48px' : '12px 30px')};
-    margin: 20px;
+    margin: 0px;
     color: ${({dark}) => (dark ? '#010606' : '#fff')};
     font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
     outline: none;
@@ -69,4 +69,17 @@ export const SimpleButton2 = styled.button`
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#fff' : '#01BF71')};
     }
+`
+
+export const ToTopButton = styled.div`
+   position: fixed;
+   transition: all 2s ease-in;
+   width: 100%;
+   left: 90%;
+   bottom: 40px;
+   height: 20px;
+   font-size: 3rem;
+   z-index: 1;
+   cursor: pointer;
+   color: #e83b36;
 `

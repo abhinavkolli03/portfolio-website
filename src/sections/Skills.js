@@ -1,16 +1,16 @@
 import React from 'react'
-import { VscRadioTower } from 'react-icons/vsc'
 import '../styles/Skills.css'
 
 
 const Skills = () => {
   return (
-    <section style={{background: 'linear-gradient(#e83b36, #ff8606)', backgroundColor: '#ff8606', height: '100%', maxHeight: '1800'}} id="skills">
-        <h1 data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" style={{color: '#fff', marginBottom: -60}}>Tech Stack</h1>
+    <section style={{background: 'linear-gradient(#4C1B76, #BB496B)'}} id="skills">
+        <h1 data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" style={{color: '#fff'}}>Tech Stack</h1>
+        <h5 className="h5_subtitle" style={{marginBottom: '-60px'}}>Here's a list of tech that I've picked up or used recently. This includes technologies I use for full-stack software engineering, data analysis, and designing/planning.</h5>
         <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="400"
-        className="container skills__container">
+        className="container  skills__container">
             <div className="skills__title">
-                <h2><b>Languages and Datbases</b></h2>
+                <h2><b>Languages and Databases</b></h2>
             </div>
             <div className='skills__content'>
                 <div className="skills__container-tech-stack">

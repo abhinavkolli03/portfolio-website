@@ -33,13 +33,15 @@ const IntroParts = () => {
             <Button to='projects' 
               onMouseEnter={onHover} 
               onMouseLeave={onHover}
+              smooth='true'
               primary='true'
               dark='true'>
               <b>See Portfolio </b>{hover ?<EyeDown /> : <EyeUp />}
             </Button>
-            <Button to='projects' 
+            <Button to='contact' 
               onMouseEnter={onHover} 
               onMouseLeave={onHover}
+              smooth='true'
               primary='true'
               dark='true'>
               <b>Contact Me </b>{hover ?<SecondThought /> : <FirstThought />}

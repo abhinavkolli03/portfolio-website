@@ -15,7 +15,7 @@ const About = () => {
     }
 
 	return(
-        <section style={{background: 'linear-gradient(black, #600538)', backgroundColor: '#C66F44', maxHeight: '1500px'}} id="about">
+        <section style={{background: 'linear-gradient(#000000, #181B46)'}} id="about">
             <h1 data-aos="fade-zoom-in" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="400" style={{color: '#fff'}}>About Me</h1>
             <div className="container about__container">
                 <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="400" className="about__me">

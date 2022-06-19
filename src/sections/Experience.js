@@ -56,7 +56,7 @@ const Experience = () => {
     ]
 
 	return(
-        <section style={{background: 'linear-gradient(#ff8606, #fffe01)', backgroundColor: '#fffe01'}} id="experience">
+        <section style={{background: 'linear-gradient(#BB496B, #e83b36)'}} id="experience">
             <h1 data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" style={{color: '#fff'}}>Experience</h1>
             <VerticalTimeline style={{marginBottom: '20px'}}>
                 {
@@ -65,14 +65,15 @@ const Experience = () => {
 
                         return (
                             <VerticalTimelineElement 
+                                contentStyle={{ background: 'rgba(122, 17, 111, 1)' }}
                                 key={element.key}
                                 date={element.date}
                                 dateClassName="date"
                                 className="vertical-timeline.vertical-timeline-custom-line"
                                 iconStyle={isCollegeIcon ? collegeStyles : schoolStyles}
                                 icon={isCollegeIcon ? <IoSchoolSharp /> : <FaSchool />}>
-                                    <div style={{color: '#e83b36'}}>
-                                        <h2 className="vertical-timeline-element-title"><b>{element.title}</b></h2>
+                                    <div style={{color: '#fff'}}>
+                                        <h2 className="vertical-timeline-element-title" style={{color: '#ddd'}}><b>{element.title}</b></h2>
                                         <h3 className="vertical-timeline-element-subtitle"><b>{element.job}</b></h3><br></br>
                                         <h4 className="vertical-timeline-element-subtitle"><b>{element.location}</b></h4>
                                         <div className='List'>

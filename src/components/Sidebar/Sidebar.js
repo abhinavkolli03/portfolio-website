@@ -22,8 +22,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarLink to="skills" onClick={toggle}>Skills</SidebarLink>
                 <SidebarLink to="experience" onClick={toggle}>Experience</SidebarLink>
                 <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
+                <SidebarLink to="contact" onClick={toggle}>Contact Me</SidebarLink>
             </SidebarMenu>
-            <SideBtnWrap>
+            <SideBtnWrap style={{marginTop: '10px'}}>
                 <SimpleButton2
                     onMouseEnter={onHover}
                     onMouseLeave={onHover}
@@ -31,7 +32,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     dark='true'
                     color='white'>
                     <a href={pdf} style={{color: 'black'}} target="_blank" rel="noreferrer">
-                        <b style={{display: 'inline-block'}}>Download CV</b>
+                        <p style={{fontSize: "20px", display: 'inline-block', color: 'white'}}>Download CV</p>
                     </a>
                 </SimpleButton2>
             </SideBtnWrap>

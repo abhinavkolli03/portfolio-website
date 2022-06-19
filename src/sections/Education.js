@@ -6,7 +6,7 @@ import { IconContext } from 'react-icons';
 
 const Education = () => {
 	return(
-        <section style={{background: 'linear-gradient(#600538, #e83b36)', backgroundColor: '#e83b36', height: '100%', maxHeight: '1800'}} id="education">
+        <section style={{background: 'linear-gradient(#181B46, #4C1B76)' }} id="education">
             <h1 data-aos="fade-zoom-in" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="200" style={{color: '#fff', marginBottom: -60}}>Education</h1>
             <div data-aos="fade-in" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="200"
             className="education__tab section__margin" style={{color: 'white'}}>

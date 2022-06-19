@@ -7,15 +7,10 @@ import About from './About'
 import Education from './Education'
 import Experience from './Experience'
 import Skills from './Skills'
-import AOS from 'aos'
+import Projects from './Projects'
+import Contact from './Contact'
 
 const Title = () => {
-    useEffect(() => {
-        AOS.init({
-            duration:2000
-        });
-    }, []);
-
     const [isOpen, setIsOpen] = useState(false)
     const toggle = () => {
         setIsOpen(!isOpen)
@@ -30,6 +25,8 @@ const Title = () => {
             <Education />
             <Skills />
             <Experience />
+            <Projects />
+            <Contact />
             <Footer />
         </div>
     )

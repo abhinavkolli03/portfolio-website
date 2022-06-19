@@ -8,6 +8,21 @@
     font-family: 'Dosis', sans-serif;
 }
 
+html, body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+
+.background__image {
+    text-align: center;
+    background-image: '/background1.jpg';
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
 .social {
     position: relative;
     margin-top: 60px;
@@ -22,7 +37,7 @@
 
     --color-primary: #e83b36;
     --gradient-text: linear-gradient(#E39626, #FF480A);
-    --gradient-text: linear-gradient(#E39626, #FF480A);
+    --gradient-text-2: linear-gradient(#fffe01, #ff8606);
 }
 
 .container {
@@ -33,6 +48,28 @@
 h1, h2, h3, h4, h5 {
     font-weight: 500;
 }
+h1 {
+    margin-bottom: 0px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+
+.h5_subtitle {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    text-align: center;
+    color: #ddd;
+    padding-bottom: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
 
 section {
     padding-top: 0rem;
