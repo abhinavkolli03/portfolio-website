@@ -6,7 +6,7 @@ const Projects = () => {
     const projectsList = [
         {
             id: 1,
-            image: '/project-images/algorimage_ss.png',
+            image: '/projects/algorimage_ss.png',
             title: 'Algorimage: Pathfinder',
             description: 'A pathfinding visualizer that tests various algorithms (A*, Djikstra, Greedy, BFS, DFS) under different heuristics. The user can also change end points, add/randomize walls, and increase wall density.',
             github: 'https://github.com/abhinavkolli03/algorimage',
@@ -16,7 +16,7 @@ const Projects = () => {
         },
         {
             id: 2,
-            image: '/project-images/stock_bot.png',
+            image: '/projects/stock_bot.png',
             title: 'The Stock Bot',
             description: 'A Tensroflow Keras DQN bot that took in an ARIMA-LSTM model\'s results and simulated when it would trade, buy, or sell stocks through reinforcement learning.',
             github: 'https://github.com',
@@ -26,7 +26,7 @@ const Projects = () => {
         },
         {
             id: 3,
-            image: '/project-images/personal-site_ss.png',
+            image: '/projects/personal-site_ss.png',
             title: 'Personal Website V1',
             description: 'My personal website that\'s used to display my portfolio and resume in more detail. I hope to make improvements using different frameworks in the future.',
             github: 'https://github.com/abhinavkolli03/portfolio-website',
@@ -36,7 +36,7 @@ const Projects = () => {
         },
         {
             id: 4,
-            image: '/project-images/Messenger.png',
+            image: '/projects/Messenger.png',
             title: 'Messenger: 2D Ship Game',
             description: 'A videogame where the the user, or messenger, must carry a message to home base, while traversing through three rounds of enemy ships, asteroids, and bosses.',
             github: 'https://github.com/abhinavkolli03/MessengerGame',
