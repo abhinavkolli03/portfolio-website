@@ -30,9 +30,9 @@ const Projects = () => {
             title: 'Personal Website V1',
             description: 'My personal website that\'s used to display my portfolio and resume in more detail. I hope to make improvements using different frameworks in the future.',
             github: 'https://github.com/abhinavkolli03/portfolio-website',
-            demo: '',
-            demo_present: false,
-            skillsList: ['react.js', 'HTML', 'Sass', 'JS', 'styled-components']
+            demo: 'https://abhinavkolli03.github.io/portfolio-website/',
+            demo_present: true,
+            skillsList: ['react.js', 'HTML', 'CSS', 'JS', 'Styled-Components', 'Firebase', 'Firestore Database']
         },
         {
             id: 4,
